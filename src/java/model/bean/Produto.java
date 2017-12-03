@@ -1,8 +1,23 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package model.bean;
 
-
+/**
+ *
+ * @author Home
+ */
 public class Produto {
+    private int id;
+    private String nome;
+    private String descricao;
+    private double valor;
+    private int quantidade;
+    
+    public Produto(){}
+    public Produto(String nome, String descricao,double valor, int quantidade){}
 
     public int getId() {
         return id;
@@ -10,6 +25,14 @@ public class Produto {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getDescricao() {
@@ -20,14 +43,6 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public int getQtd() {
-        return qtd;
-    }
-
-    public void setQtd(int qtd) {
-        this.qtd = qtd;
-    }
-
     public double getValor() {
         return valor;
     }
@@ -36,26 +51,13 @@ public class Produto {
         this.valor = valor;
     }
 
-    public DataSource getCategorias() {
-        return categorias;
+    public int getQuantidade() {
+        return quantidade;
     }
 
-    public void setCategorias(DataSource categorias) {
-        this.categorias = categorias;
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
     
-    private int id;
-    private String descricao;
-    private int qtd;
-    private double valor;
-    private DataSource categorias;
     
-    public Produto(){}
-    
-    public Produto(String descricao, int qtd, double valor, DataSource categoria){
-        this.descricao = descricao;
-        this.qtd = qtd;
-        this.valor = valor;
-        this.categorias = categoria;
-    }
 }
