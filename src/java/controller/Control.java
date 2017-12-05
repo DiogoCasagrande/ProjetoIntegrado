@@ -7,6 +7,7 @@ package controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  *
@@ -15,20 +16,47 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Control {
 
-    @RequestMapping("/index")
-    public String iniciando(){
+    @RequestMapping("/")
+    public String index(){
         return "index";
     }
+    @RequestMapping("/cadastrar_mesa")
+    public String cadastrarMesa(){
+        return "cadastrar_mesa";
+    }
     
-    /*
-    @RequestMapping("/login")
-    public String entrar(){
+    @RequestMapping("/cadastrar_cliente")
+    public String cadastrarCliente(){
+        return "cadastrar_cliente";
+    }
     
-        
-    }*/
-    @RequestMapping("/cadastro-estabelecimento")
-    public String cadastro(){
+    @RequestMapping("/cadastrar_estabelecimento")
+    public String cadastrarEstabelecimento(){
+        return "cadastrar_estabelecimento";
+    }
     
-        return "cadastro-estabelecimento";
+    @RequestMapping(value="/estabelecimentos", method=RequestMethod.GET)
+    public String listarEstabelecimentos(){
+        return "estabelecimentos";
+    }
+    
+    @RequestMapping("/reservar")
+    public String reservar(){
+        return "reservar";
+    }
+    
+    @RequestMapping("/reservar_mesa")
+    public String reservarMesa(){
+        return "reservar_mesa";
+    }
+    
+    @RequestMapping("/reservar_prato")
+    public String reservarPrato(){
+        return "reservar_prato";
+    }
+    
+    @RequestMapping("/seja_nosso_parceiro")
+    public String sejaNossoParceiro(){
+        return "seja_nosso_parceiro";
     }
 }

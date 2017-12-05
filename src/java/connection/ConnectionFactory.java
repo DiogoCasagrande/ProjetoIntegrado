@@ -28,6 +28,7 @@ public class ConnectionFactory {
             return DriverManager.getConnection(URL, USER, PASS);
 
         } catch (ClassNotFoundException | SQLException ex) {
+            System.out.println("erro da pqp "+ ex);
             throw new RuntimeException("erro de conecção ", ex);
         }
     }
