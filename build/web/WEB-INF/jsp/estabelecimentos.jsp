@@ -47,17 +47,17 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
-                    <a href="index.jsp" class="navbar-brand">Reserve Já!</a>
+                    <a href="/projeto-integrado2/" class="navbar-brand">Reserve Já!</a>
                 </div>
 
                 <div class="collapse navbar-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.jsp" class="smoothScroll">Home</a></li>
-                        <li><a href="seja_nosso_parceiro.jsp" class="smoothScroll">Seja nosso parceiro</a></li>
-                        <li><a href="estabelecimentos.jsp" class="smoothScroll">Estabelecimentos</a></li>
-                        <li><a href="perfil.jsp" class="smoothScroll">Perfil</a></li>
-                        <li><a href="login.jsp" class="smoothScroll">Login</a></li>
+                        <li><a href="/projeto-integrado2/" class="smoothScroll">Home</a></li>
+                        <li><a href="/projeto-integrado2/seja_nosso_parceiro" class="smoothScroll">Seja nosso parceiro</a></li>
+                        <li><a href="/projeto-integrado2/estabelecimentos" class="smoothScroll">Estabelecimentos</a></li>
+                        <!--<li><a href="/projeto-integrado2/perfil" class="smoothScroll">Perfil</a></li>-->
+                        <li><a href="/projeto-integrado2/login" class="smoothScroll">Login</a></li>
                     </ul>
 
                 </div>
@@ -79,7 +79,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>                        
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>                        
                         <div class="speakers-thumb">
                             <h3>Happy Hour</h3>
                             <h6>Cervejas artesanais</h6>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>  
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>  
                         <div class="speakers-thumb">
                             <h3>Dona Bella</h3>
                             <h6>Padaria</h6>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>  
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>  
                         <div class="speakers-thumb">
                             <h3>Espetinho 1</h3>
                             <h6>Churrasco no espeto</h6>
@@ -117,7 +117,7 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>  
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>  
                         <div class="speakers-thumb">
                             <h3>Vegan Food</h3>
                             <h6>Culinária vegana</h6>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>  
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>  
                         <div class="speakers-thumb">
                             <h3>Hambuguer TOP</h3>
                             <h6>Hamburgueria</h6>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="speakers-wrapper">
-                        <a href="reservar.jsp"><img src="images/est_img.png"></a>  
+                        <a href="/projeto-integrado2/reservar"><img src="ressource/images/est_img.png"></a>  
                         <div class="speakers-thumb">
                             <h3>Sushi Legal</h3>
                             <h6>Culinária Japonesa</h6>

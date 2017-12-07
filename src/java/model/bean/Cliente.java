@@ -6,14 +6,16 @@ import java.sql.Date;
 public class Cliente {
    
     private int id;
-    private String email;
-    private String senha;
     private String nome;
     private String sobrenome;
     private Date nascimento;
     private int telefone;
     private int cpf;
     private String genero;
+    private String email;
+    private String senha; 
+    
+    
     
     public Cliente(){}
     

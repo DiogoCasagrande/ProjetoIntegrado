@@ -47,17 +47,17 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
-                    <a href="index.jsp" class="navbar-brand">Reserve Já!</a>
+                    <a href="/projeto-integrado2/" class="navbar-brand">Reserve Já!</a>
                 </div>
 
                 <div class="collapse navbar-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.jsp" class="smoothScroll">Home</a></li>
-                        <li><a href="seja_nosso_parceiro.jsp" class="smoothScroll">Seja nosso parceiro</a></li>
-                        <li><a href="estabelecimentos.jsp" class="smoothScroll">Estabelecimentos</a></li>
-                        <li><a href="perfil.jsp" class="smoothScroll">Perfil</a></li>
-                        <li><a href="login.jsp" class="smoothScroll">Login</a></li>
+                        <li><a href="/projeto-integrado2/" class="smoothScroll">Home</a></li>
+                        <li><a href="/projeto-integrado2/seja_nosso_parceiro" class="smoothScroll">Seja nosso parceiro</a></li>
+                        <li><a href="/projeto-integrado2/estabelecimentos" class="smoothScroll">Estabelecimentos</a></li>
+                        <!--<li><a href="/projeto-integrado2/perfil" class="smoothScroll">Perfil</a></li>-->
+                        <li><a href="/projeto-integrado2/login" class="smoothScroll">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,14 +71,14 @@
         <br/>
         <br/>
         <h1>Cadastrar mesa</h1>
-        <form>	    
+        <form action="" method="POST">
             <div class="contentform">
 
                 <div class="leftcontact">
                     <div class="form-group">
                         <p>Número<span>*</span></p>
                         <span class="icon-case"><i class="fa fa-plus"></i></span>
-                        <input type="text" name="numero" id="numero" data-rule="required" />
+                        <input type="number" name="numero" id="numero" data-rule="required" />
                         <div class="validation"></div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="form-group">
                         <p>Quantidade de lugares<span>*</span></p>
                         <span class="icon-case"><i class="fa fa-cutlery"></i></span>
-                        <input type="text" name="lugares" id="lugares" data-rule="required" />
+                        <input type="number" name="lugares" id="lugares" data-rule="required" />
                         <div class="validation"></div>
                     </div>
                 </div>

@@ -47,17 +47,17 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
-                    <a href="index.jsp" class="navbar-brand">Reserve Já!</a>
+                    <a href="/projeto-integrado2/" class="navbar-brand">Reserve Já!</a>
                 </div>
 
                 <div class="collapse navbar-collapse">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.jsp" class="smoothScroll">Home</a></li>
-                        <li><a href="seja_nosso_parceiro.jsp" class="smoothScroll">Seja nosso parceiro</a></li>
-                        <li><a href="estabelecimentos.jsp" class="smoothScroll">Estabelecimentos</a></li>
-                        <li><a href="perfil.jsp" class="smoothScroll">Perfil</a></li>
-                        <li><a href="login.jsp" class="smoothScroll">Login</a></li>
+                        <li><a href="/projeto-integrado2/" class="smoothScroll">Home</a></li>
+                        <li><a href="/projeto-integrado2/seja_nosso_parceiro" class="smoothScroll">Seja nosso parceiro</a></li>
+                        <li><a href="/projeto-integrado2/estabelecimentos" class="smoothScroll">Estabelecimentos</a></li>
+                        <!--<li><a href="/projeto-integrado2/perfil" class="smoothScroll">Perfil</a></li>-->
+                        <li><a href="/projeto-integrado2/login" class="smoothScroll">Login</a></li>
                     </ul>
 
                 </div>
@@ -74,9 +74,9 @@
                 <div class="row">
 
                     <div class="col-md-12 col-sm-12">
-                        <a href="reservar_prato.jsp" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" style="margin-right: 60px;letter-spacing: 10px;font-size: 45px;" data-wow-delay="0.3s">PRATO</a>
+                        <a href="/projeto-integrado2/reservar_prato" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" style="margin-right: 60px;letter-spacing: 10px;font-size: 45px;" data-wow-delay="0.3s">PRATO</a>
                         
-                        <a href="reservar_mesa.jsp" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" style="margin-right: 60px;letter-spacing: 10px;font-size: 45px;" data-wow-delay="0.3s">MESA</a>
+                        <a href="/projeto-integrado2/reservar_mesa" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" style="margin-right: 60px;letter-spacing: 10px;font-size: 45px;" data-wow-delay="0.3s">MESA</a>
                     </div>
 
 

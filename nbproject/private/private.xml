@@ -3,11 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/jsp/cadastro-estabelecimento.jsp</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/model/dao/EstabelecimentoDAO.java</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/connection/ConnectionFactory.java</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/model/dao/MesaDAO.java</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/jsp/mesa_sucessful.jsp</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/model/dao/ClienteDAO.java</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/jsp/reservar_mesa.jsp</file>
             <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/controller/Control.java</file>
-            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/web/WEB-INF/jsp/cadastro_cliente.jsp</file>
+            <file>file:/C:/Users/Home/Documents/NetBeansProjects/projeto-integrado2/src/java/model/bean/Mesa.java</file>
         </group>
     </open-files>
 </project-private>
